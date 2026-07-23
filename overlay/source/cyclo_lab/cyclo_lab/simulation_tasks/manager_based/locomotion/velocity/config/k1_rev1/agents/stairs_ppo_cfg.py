@@ -7,7 +7,7 @@ from .rsl_rl_ppo_cfg import K1Rev1FlatPPORunnerCfg
 
 @configclass
 class K1Rev1StairsPPORunnerCfg(K1Rev1FlatPPORunnerCfg):
-    experiment_name = "k1_rev1_stairs_velocity"
+    experiment_name = "k1_rev1_stairs_ascent_velocity"
     max_iterations = 10000
     save_interval = 100
     num_steps_per_env = 24
